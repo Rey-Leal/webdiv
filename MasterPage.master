@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WebModern Ltda</title>
+    <link href="Css/Estilos.css" rel="Stylesheet" type="text/css" />
+    <link href="Imagens/Camaro.ico" rel="Shortcut Icon" />
+    <meta name="keywords" content="WeBModern site moderno e casual" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="geral">
+        <div class="topo">
+            divTopo</div>
+        <div class="linkSuperior">
+            divLinkSuperior</div>
+        <div class="coluna-1">
+            <div class="linkLateral">
+                divLinkLateral</div>
+        </div>
+        <div class="coluna-2">
+            <div class="conteudo">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="limparColunas">
+        </div>
+        <div class="rodape">
+            divRodape - by ReyLeal 2010</div>
+    </div>
+    </form>
+</body>
+</html>

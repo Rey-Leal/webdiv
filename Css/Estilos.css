@@ -1,0 +1,126 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: Black;
+    font-size: 16px;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;    
+    color: Black;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+.geral
+{
+    margin: 10px auto;
+    padding: 10px;    
+    background-color: White;
+    width: 900px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+
+.topo
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: Orange;
+    height: 150px;
+    text-align: center;
+    font-size: 50px;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+
+.linkSuperior
+{
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    background-color: Aqua;
+    height: 25px;
+    text-align: center;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+
+.linkLateral
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: Green;
+    height: 500px;
+    width: 150px;   
+    text-align: center; 
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+
+.conteudo
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: Teal;
+    height: 500px;
+    width: 690px;
+    text-align: center;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+
+.rodape
+{
+    margin: 10px;
+    padding: 5px;
+    background-color: Yellow;
+    height: 25px;
+    text-align: center;
+    -moz-background-clip: border;
+    -moz-background-inline-policy: continuous;
+    -moz-box-shadow: 0px 0px 6px #000;
+    -moz-border-radius: 10px;
+}
+
+.coluna-1
+{
+    float: left;
+}
+
+.coluna-2
+{
+    float: right;
+}
+
+.limparColunas
+{
+    clear: both;
+}
